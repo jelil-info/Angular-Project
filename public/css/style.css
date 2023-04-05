@@ -18,7 +18,7 @@
 }
 
 .typewriting2 {
-  font-family: 'Pacifico', cursive; 
+  font-family: 'Roboto Mono', cursive; 
   font-size: 30px;
   /*font-size:3vw;*/ 
   margin: 10px 50px; 
@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 600px) {
   .typewriting2 {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
@@ -174,7 +174,8 @@ li.dropdown {
 
 /*Desktop nav background*/
 .navbar {
-  background-color: rgb(0,0,0,0.5);
+  /*background-color: rgb(0,0,0,0.5);*/
+  background-color: black;
 }
 
 .desktopNav li a {
@@ -531,7 +532,7 @@ ul.plusSignMenu {
 /*mobile nav background*/
 .sideMobileMenu {
 
-  background-color: rgb(0,0,0,0.5);
+  background-color: black;
   
   }
   .mobileMenuAdjust {
