@@ -18,7 +18,8 @@
 }
 
 .typewriting2 {
-  font-family: 'Roboto Mono', cursive; 
+  /*font-family: 'Roboto Mono', cursive;*/ 
+  font-family: 'Roboto Mono';
   font-size: 30px;
   /*font-size:3vw;*/ 
   margin: 10px 50px; 
@@ -342,8 +343,8 @@ li.dropdown {
 .plusSign::after {
     float: right;
     right: 10%;
-    content: "+";
-    color: white;
+    /*content: "+";*/
+    /*color: white;*/
     margin-left: 40px;
     }
     
@@ -352,8 +353,8 @@ li.dropdown {
       .plusSign::after {
         float: right;
         right: 10%;
-        content: "+";
-        color: white;
+        /*content: "+";*/
+        /*color: white;*/
         margin-left: 85px;
         margin-top: -19px;
         
@@ -364,7 +365,7 @@ li.dropdown {
       .plusSign::after {
         float: right;
         right: 10%;
-        content: "+";
+        /*content: "+";*/
         color: white;
         margin-left: 70px;
         margin-top: -19px;
@@ -534,12 +535,13 @@ ul.plusSignMenu {
 
   background-color: black;
   
+  
   }
   .mobileMenuAdjust {
-    margin-top: -50px;
-    /*overflow-y: scroll;
-    overflow-x: hidden;*/
-    height: 300px;
+    margin-top: -250px;
+    overflow-y: scroll;
+    /*overflow-x: hidden;*/
+    height: 700px;
   }
 
   
@@ -567,6 +569,7 @@ ul.plusSignMenu {
   /*border: 3px solid #73AD21;*/
   color: #009999;
   right: -100px;
+  
 } 
 
 @media only screen and (max-width: 450px) {
@@ -577,7 +580,7 @@ ul.plusSignMenu {
     /*border: 3px solid #73AD21;*/
     color: #009999;
     right: -100px;
-    margin-left: -45px;
+    margin-left: -60px;
   }
     }
 
@@ -586,6 +589,7 @@ ul.plusSignMenu {
   top: 10px;
   right: -39px;
   width: 100px;
+  margin-right: 10px;
   /*border: 3px solid #73AD21;*/
 }
 
@@ -598,6 +602,7 @@ ul.plusSignMenu {
   line-height: 20px;
   cursor: pointer;
   transition: 0.3s;
+ 
 }
 
 .closebtn:hover {
