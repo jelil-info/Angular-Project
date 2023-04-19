@@ -83,9 +83,9 @@ app.get('/download',function(req,res){
             
             });
 
-            app.get('/aboutMe', (req, res) => {
+            app.get('/about', (req, res) => {
 
-              res.render('aboutMe');
+              res.render('about');
               
               
               });

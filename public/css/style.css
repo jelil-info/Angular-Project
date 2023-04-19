@@ -626,6 +626,13 @@ ul.plusSignMenu {
 }
 
 
+@media screen and (max-width: 575px) {
+  .availability {
+    margin-top: -60px;
+  }
+}
+
+
 .servicesDescription h2 {
   color:#009999;
 }
@@ -1665,6 +1672,18 @@ header menu a:hover {
   }
 }
 
+/*Footer of About Link*/
+@media screen and (max-width: 615px) {
+  .aboutFooter {
+    margin-top: 600px;
+  }
+}
+
+@media screen and (min-width: 615px) {
+  .aboutFooter {
+    margin-top: 100px;
+  }
+}
 
 
 
@@ -1745,6 +1764,4 @@ header menu a:hover {
     max-width: 500px;
   }
 }*/
-
-
 

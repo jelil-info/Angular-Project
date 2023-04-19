@@ -1,6 +1,6 @@
 {
   "name": "a",
-  "description": "Our sample Node to Heroku app",
+  "description": "InfoTechCrush",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
